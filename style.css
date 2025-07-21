@@ -1,0 +1,44 @@
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #57ddb5;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: auto;
+      background: rgb(240, 205, 205);
+      padding: 50px;
+      border-radius: 8px;
+      align-items: center;
+    }
+
+    form input, form button, #search {
+      display: block;
+      width: 100%;
+      margin: 10px 0;
+      padding: 10px;
+      
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      background: #e0e0e0;
+      padding: 10px;
+      margin-bottom: 8px;
+      border-radius: 5px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    button.edit, button.delete {
+      margin-left: 10px;
+      padding: 5px 8px;
+    }
+  
